@@ -42,7 +42,7 @@ Device found
 #151719: C: 15740, R: 5509, G: 5899, B: 6506
 ```
 
-# ev3 color sensor dimentions
+# ev3 color sensor dimensions
 
 Axis | mm | holes | remark
 -----|----|-------|-------
@@ -58,4 +58,12 @@ Height | 31.35 mm | 4 | with connector
 * turn code into library
 * 3d prinable sensor case
 * find a source for the modified RJ45 sockets
+  * http://www.mindsensors.com/51-cables-connectors
+  * http://www.mindsensors.com/ev3-and-nxt/117-nxtev3-compatible-female-sockets-5-pack
+  * https://www.dexterindustries.com/shop/female-sockets-lego-mindstorms-nxt-and-ev3/
+  * https://www.generationrobots.com/en/102_dexter-industries
 * do a simplified PCB design
+* consider making it an uart sensor
+  * needs a MCU
+  * http://lechnology.com/2014/09/using-uart-sensors-on-any-linux/
+  * https://github.com/ev3dev/lego-linux-drivers/blob/master/sensors/ev3_uart_sensor_ld.c
