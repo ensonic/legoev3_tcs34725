@@ -25,7 +25,22 @@ Pin 6 (blue) | SDA
 
 # demo code
 
+Once the sensor is plugged, the right port mode needs to be choosen (below it has been plugged to port '1':
+
+``` shell
+echo "other-i2c" | sudo tee /sys/devices/platform/legoev3-ports/lego-port/port0/mode
+```
+
 Copy sensor-test.py to the ev3 and run it. It will print brightness and r,g,b values as soon as the change.
+
+``` shell
+$ python3 ./sensor-test.py
+Device found
+#090605: C: 3551, R: 2491, G: 1541, B: 1450
+#090505: C: 3470, R: 2413, G: 1509, B: 1413
+#0a0707: C: 4664, R: 2724, G: 1942, B: 1913
+#151719: C: 15740, R: 5509, G: 5899, B: 6506
+```
 
 # ev3 color sensor dimentions
 
