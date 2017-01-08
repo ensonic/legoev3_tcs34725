@@ -1,5 +1,6 @@
 # legoev3_tcs34725
-active color-sensor based on TCS34725 for lego mindstorms ev3
+An active color-sensor based on TCS34725 for lego mindstorms ev3. The goal is to have a color sensor that can sense
+colors on screns or color on surfaces illuminated by leds.
 
 # 1st prototype
 The prototype is based on the [Adafruit RGB Color Sensor with IR filter and White LED - TCS34725](https://www.adafruit.com/product/1334).
@@ -25,3 +26,21 @@ Pin 6 (blue) | SDA
 # demo code
 
 Copy sensor-test.py to the ev3 and run it. It will print brightness and r,g,b values as soon as the change.
+
+# ev3 color sensor dimentions
+
+Axis | mm | holes | remark
+-----|----|-------|-------
+Length | 40 mm | 5 |
+Depth | 24 mm | 3 |
+Height | 22 mm | 3 | without connector
+Height | 31.35 mm | 4 | with connector
+
+'holes' are sizes in lego technic beams.
+
+# TODO
+
+* turn code into library
+* 3d prinable sensor case
+* find a source for the modified RJ45 sockets
+* do a simplified PCB design
