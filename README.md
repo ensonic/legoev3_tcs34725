@@ -65,5 +65,10 @@ Height | 31.35 mm | 4 | with connector
 * do a simplified PCB design
 * consider making it an uart sensor
   * needs a MCU
+  * https://lejosnews.wordpress.com/2014/06/04/arduino-ev3-uart-emulation-library/
+  * https://github.com/lawrie/EV3_Dexter_Industries_Sensors/tree/master/EV3_arduino
   * http://lechnology.com/2014/09/using-uart-sensors-on-any-linux/
   * https://github.com/ev3dev/lego-linux-drivers/blob/master/sensors/ev3_uart_sensor_ld.c
+
+# Links
+* https://learn.adafruit.com/adafruit-color-sensors/downloads
